@@ -41,6 +41,7 @@ function App() {
     <>
       <h1>Temperature <sup>0</sup>C={temp.length == 0 ? 0 : Math.round(temp - 273.15)} in {city}</h1>
       <br />
+      <h1>raja</h1>
       <button onClick={() => { hitAPI("Odisha") }} >odisha</button>
       <button onClick={() => { hitAPI("Hyderabad") }}>Hyderabad</button>
       <button onClick={() => { hitAPI("Bhubaneswar") }}>Bhubaneswar</button>
